@@ -1,7 +1,8 @@
-import React from 'react';
-import LoginButton from './components/LoginButton';
-import LogoutButton from './components/LogoutButton';
-import Profile from './components/Profile';
+import React from "react";
+import LoginButton from "./components/LoginButton";
+import LogoutButton from "./components/LogoutButton";
+import Profile from "./components/Profile";
+import CallApi from "./components/CallApi";
 
 const App: React.FC = () => {
   return (
@@ -10,6 +11,7 @@ const App: React.FC = () => {
       <LoginButton />
       <LogoutButton />
       <Profile />
+      <CallApi />
     </div>
   );
 };
